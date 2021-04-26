@@ -5,19 +5,12 @@ Please see [this repo](https://github.com/laravel-notification-channels/channels
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rezahmady/smsir.svg?style=flat-square)](https://packagist.org/packages/rezahmady/smsir)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/rezahmady/smsir/master.svg?style=flat-square)](https://travis-ci.org/rezahmady/smsir)
-[![StyleCI](https://styleci.io/repos/:style_ci_id/shield)](https://styleci.io/repos/:style_ci_id)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/:sensio_labs_id.svg?style=flat-square)](https://insight.sensiolabs.com/projects/:sensio_labs_id)
 [![Quality Score](https://img.shields.io/scrutinizer/g/rezahmady/smsir.svg?style=flat-square)](https://scrutinizer-ci.com/g/rezahmady/smsir)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/rezahmady/smsir/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/rezahmady/smsir/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/rezahmady/smsir.svg?style=flat-square)](https://packagist.org/packages/rezahmady/smsir)
 
 This package makes it easy to send notifications using [Smsir](https://sms.ir) with Laravel 5.5+, 6.x, 7.x and 8.x
-
-**Note:** Replace ```Smsir``` ```Smsir``` ```Reza Ahmadi Sabzevar``` ```rezahmady``` ```:author_website``` ```ahmadireza15@gmail.com``` ```:package_name``` `````` ```:style_ci_id``` ```:sensio_labs_id``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md), [composer.json](composer.json) and other files, then delete this line.
-**Tip:** Use "Find in Path/Files" in your code editor to find these keywords within the package directory and replace all occurences with your specified term.
-
-This is where your description should go. Add a little code example so build can understand real quick how the package can be used. Try and limit it to a paragraph or two.
-
 
 
 ## Contents
@@ -55,7 +48,7 @@ then add this method to your User model
 ```
 public function routeNotificationForSmsir()
 {
-	return $this->mobile;
+    return $this->mobile;
 }
 ```
 
@@ -124,8 +117,9 @@ return auth()->user()->notify(new VerificationCode('1234'));
 
 A list of all available options
 
-####setMethod
-this method is require
+**setMethod**
+
+is require
 ```
 ->setMethod('METHOD_NAME')
 ```
@@ -134,7 +128,7 @@ smsir has two method for send sms :
 
 **1. ultraFastSend**
 require attributes is `parameters` (array) and `templateId` (string)
-set them with this chane methods :
+set them with this chain methods :
 
 ```
 ->setTemplateId('THEMPLATE_ID')
