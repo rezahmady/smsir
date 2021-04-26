@@ -1,5 +1,3 @@
-Please see [this repo](https://github.com/laravel-notification-channels/channels) for instructions on how to submit a channel proposal.
-
 # Unofficial Laravel notification channel Package for sms.ir
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rezahmady/smsir.svg?style=flat-square)](https://packagist.org/packages/rezahmady/smsir)
