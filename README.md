@@ -8,7 +8,7 @@
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/rezahmady/smsir/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/rezahmady/smsir/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/rezahmady/smsir.svg?style=flat-square)](https://packagist.org/packages/rezahmady/smsir)
 
-This package makes it easy to send notifications using [Smsir](https://sms.ir) with Laravel 5.5+, 6.x, 7.x and 8.x
+This package makes it easy to send notifications using [Smsir](https://sms.ir) with Laravel 5.5+, 6.x, 7.x , 8.x and 9.x
 
 
 ## Contents
